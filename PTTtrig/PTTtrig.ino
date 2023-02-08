@@ -62,7 +62,7 @@ void loop() {
       Serial.println("SNS2S: ACT, BUT DISABLED");
     }
 
-    delay(100);
+    delay(200);
   }
   else if(SNS1S==HIGH)
   {
@@ -120,7 +120,7 @@ void loop() {
     digitalWrite(PTT3,HIGH);
     String myString = String(i);
     Serial.println("No TFK"+myString);
-    delay(50);
+    delay(20);
   }
 
 }
